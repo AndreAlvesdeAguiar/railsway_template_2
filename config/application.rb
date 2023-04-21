@@ -5,6 +5,7 @@ require "rails/all"
 # Require the gems listed in Gemfile, including any gems
 # you've limited to :test, :development, or :production.
 Bundler.require(*Rails.groups)
+config.hosts << "rails-production-71a4.up.railway.app"
 
 module RubyRailsPostgres
   class Application < Rails::Application
