@@ -26,7 +26,7 @@ Rails.application.configure do
 
   # Compress CSS using a preprocessor.
   # config.assets.css_compressor = :sass
-  Rails.application.config.hosts << "rails-production-71a4.up.railway.app"
+  config.hosts << "rails-production-71a4.up.railway.app"
 
   # Do not fallback to assets pipeline if a precompiled asset is missed.
   config.assets.compile = false
